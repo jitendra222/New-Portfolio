@@ -1,0 +1,294 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-size: 1.5vw;
+
+}
+
+nav-bar h1 span {
+
+    color: #00ABAE;
+
+
+}
+
+nav-bar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10%;
+    font-size: 1.5vw;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+
+main {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section h1 {
+    font-size: 4vw;
+}
+
+.left-section p {
+    font-size: 3vw;
+}
+
+
+
+
+.right-section {
+    width: 45%;
+}
+
+.right-section h1 {
+    font-size: 1.8vw;
+}
+
+
+
+.right-section img {
+    width: 100%;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.btn {
+    display: flex;
+    gap: 5%;
+}
+
+
+.btn button {
+    width: 10vw;
+    font-size: 1vw;
+    border-style: none;
+    background-color: #00ABAE;
+    color: white;
+    height: 5vw;
+
+}
+
+
+
+.about h2 {
+    
+    font-size: 3vw;
+    
+   
+}
+.about-grid {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.grid {
+    flex-basis: 30.00%;
+}
+.grid p {
+    font-size: 15px;
+    line-height: 2;
+    font-weight: light;
+    color: #303030;
+}
+
+.grid h3 {
+    font-size: 2vw;
+}
+
+
+@media only screen and (max-width: 500px) {
+     .about h2 {
+         font-size: 5vw;
+      
+    }
+
+    .grid h3{
+        font-size: 4vw;
+    }
+
+    .grid p {
+        font-size: 3vw;
+    }
+
+}
+
+    
+
+
+skills {
+      display: grid;
+      grid-template-columns: repeat(9,1fr);
+     place-items: center;
+      gap: 2rem;
+  }
+
+skills img{
+      width: 5vw;
+      
+  }
+
+@media screen and (max-width:600px) {
+    skills {
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+}
+
+
+#skills {
+    font-size: 3vw;
+    margin-bottom: 50px;
+
+  }
+
+projects h2 {
+
+    font-size: 3vw;
+    margin-left: 6%;
+    margin-top: 200px;
+
+}
+
+projects {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    
+}
+
+.row {
+    flex-basis: 50%;
+    line-height: 2;
+}
+
+.row h3 {
+    font-size: 2vw;
+  
+    font-weight: light;
+    color: 303030;
+}
+
+h2.about {
+    font-size: 3vw;
+    margin-top: 10vw;
+
+}
+
+.row button {
+    width: 10vw;
+    font-size: 1vw;
+    border-style: none;
+    background-color: #00ABAE;
+    color: white;
+    height: 5vw;
+    border-radius: 10px;
+}
+
+.row p{
+    font-size: 1.5vw;
+    font-weight: 100;
+    color: #303030;
+}
+
+.project-img {
+    flex-basis: 48%;
+    height: 28vw;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width:900px) {
+    .about-grid {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+
+footer {
+    margin-top: 150px;
+    text-align: center;
+}
+
+footer .up {
+    border-bottom: 1px black;
+    border-bottom-style: ridge;
+    font-size: 1.5vw;
+    font-weight: 100;
+    color: 303030;
+    
+}
+
+footer .up h1 {
+
+    font-weight: 100;
+    color: #303030;
+
+}
+
+footer .up h4 {
+
+    font-weight: 100;
+    color: #303030;
+
+}
+
+.down {
+    margin-top: 2vw;
+}
+
+
+
+
+.down ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    margin-right: 3%;
+    
+}
+
+.down ul li {
+    width: 3vw;
+    height: 3vw;
+}
+
+.down ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.down h6 {
+    font-weight: 100;
+    color: #303030;
+}
+
