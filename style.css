@@ -210,7 +210,7 @@ h2.about {
 
 .row p{
     font-size: 1.5vw;
-    font-weight: 100;
+    font-weight: 500;
     color: #303030;
 }
 
@@ -242,21 +242,21 @@ footer .up {
     border-bottom: 1px black;
     border-bottom-style: ridge;
     font-size: 1.5vw;
-    font-weight: 100;
+    font-weight: light;
     color: 303030;
     
 }
 
 footer .up h1 {
 
-    font-weight: 100;
+    font-weight: 500;
     color: #303030;
 
 }
 
 footer .up h4 {
 
-    font-weight: 100;
+    font-weight: 300;
     color: #303030;
 
 }
@@ -288,7 +288,7 @@ footer .up h4 {
 }
 
 .down h6 {
-    font-weight: 100;
+    font-weight: 300;
     color: #303030;
 }
 
